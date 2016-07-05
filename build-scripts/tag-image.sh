@@ -2,13 +2,13 @@
 
 if [[ -z "$1" ]]; then
  echo "Please give the name of the image to tag"
- echo "Like: dockerregistry.cgn.cleverbridge.com/your-repository-name:1.0.0-build-01"
+ echo "Like: dockerregistry.com/your-repository-name:1.0.0-build-01"
  exit 1
 fi
 
 if [[ -z "$2" ]]; then
  echo "Please give the the name of the Docker image complete with tag"
- echo "Like: dockerregistry.cgn.cleverbridge.com/your-repository-name:1.0.0-test-01"
+ echo "Like: dockerregistry.com/your-repository-name:1.0.0-test-01"
  exit 1
 fi
 
