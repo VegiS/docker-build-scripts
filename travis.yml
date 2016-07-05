@@ -1,6 +1,6 @@
-language: go
+language: bash
 
-script: ./run-unit-tests.sh
+script: bash run-unit-tests.sh
 
 notifications:
   email:
