@@ -1,0 +1,8 @@
+language: go
+
+script:
+  - run-unit-tests.sh
+
+notifications:
+  email:
+    - gjero@krsteski.de
