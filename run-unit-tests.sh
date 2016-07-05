@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # set execute rights for all scripts
-find . -name '*.sh' -exec chmod ugo+x {} \\;
+find . -name '*.sh' -exec chmod ugo+x {} \;
 
 cd tests/
 
