@@ -2,7 +2,7 @@
 
 if [[ -z "$1" ]]; then
  echo "Please give the repository name for the docker image as first argument"
- echo "Like: dockerregistry.cgn.cleverbridge.com/your-repository-name"
+ echo "Like: dockerregistry.com/your-repository-name"
  exit 1
 fi
 
