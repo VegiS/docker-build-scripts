@@ -3,7 +3,7 @@
 # validate arguments
 if [[ -z "$1" || -z "$2"  ]]; then
    echo "There are two arguments needed - repository name and Dockerfile name"
-   echo "Like: create-image.sh dockerregistry.cgn.cleverbridge.com/your-repository-name src/Dockerfile"
+   echo "Like: create-image.sh dockerregistry.com/your-repository-name src/Dockerfile"
    exit 1
 fi
 
