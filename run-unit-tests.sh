@@ -12,3 +12,5 @@ echo "######## INFO some extra output is expected due negative testing ########"
 ./creating-docker-image-with-no-parameters.sh
 ./tagging-docker-image-without-parameters.sh
 ./bumping-versions.sh
+
+exit 0
