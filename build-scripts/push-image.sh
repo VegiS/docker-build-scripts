@@ -2,7 +2,7 @@
 
 if [[ -z "$1" ]]; then
  echo "Please give the name of the image to push"
- echo "Like: dockerregistry.cgn.cleverbridge.com/your-repository-name:1.0.0"
+ echo "Like: dockerregistry.com/your-repository-name:1.0.0"
  exit 1
 fi
 
